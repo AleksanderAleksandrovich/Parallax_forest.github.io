@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/main.css" />
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+            defer
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"
+            defer
+        ></script>
+        <script src="../libs/gsap/ScrollSmoother.min.js" defer></script>
+
+        <script src="./js/index.js" defer></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <header class="main-header">
+                    <div class="layers">
+                        <div class="layer__header">
+                            <div class="layers__caption">
+                                Добро пожаловать в Parallax
+                            </div>
+                            <div class="layers__title">Волшебный лес</div>
+                        </div>
+                        <div
+                            class="layer layers__base"
+                            style="background-image: url(../img/layer-base.png)"
+                        ></div>
+                        <div
+                            class="layer layers__middle"
+                            style="
+                                background-image: url(../img/layer-middle.png);
+                            "
+                        ></div>
+                        <div
+                            class="layer layer__front"
+                            style="
+                                background-image: url(../img/layer-front.png);
+                            "
+                        ></div>
+                    </div>
+                </header>
+                <article
+                    class="main-article"
+                    style="background-image: url(../img/dungeon.jpg)"
+                >
+                    <div class="main-article__content">
+                        <h2 class="main-article__title">To be continued</h2>
+                        <p class="main-article__paragraph">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Modi consequuntur quam est doloremque odio
+                            tenetur doloribus fugit aliquam? Nostrum, unde velit
+                            reprehenderit, ipsam labore tempora obcaecati a
+                            earum incidunt doloribus blanditiis cum?
+                        </p>
+                    </div>
+                    <div class="author">©️ АлександрАлександрович</div>
+                </article>
+            </div>
+        </div>
+    </body>
+</html>
